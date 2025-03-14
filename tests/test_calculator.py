@@ -1,5 +1,5 @@
 # tests/test_calculator.py
-from calculator import add, subtract, multiply, divide
+from calculator import add, subtract, multiply, divide, power
 
 def test_add():
     assert add(2, 3) == 5
@@ -18,3 +18,6 @@ def test_divide_by_zero():
         divide(1, 0)
     except ValueError as e:
         assert str(e) == "Cannot divide by zero!"
+
+def test_power():
+    assert power(2, 3) == 8

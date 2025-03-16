@@ -8,6 +8,7 @@ This is a simple calculator program with basic arithmetic operations.
 - Multiplication
 - Division
 - Power
+- Modulo
 
 ## Usage
 To use the calculator, import the `calculator` module and call the desired functions:

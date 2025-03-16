@@ -1,18 +1,19 @@
 # Calculator Project
 
-     This is a simple calculator program with basic arithmetic operations.
+This is a simple calculator program with basic arithmetic operations.
 
-     ## Features
-     - Addition
-     - Subtraction
-     - Multiplication
-     - Division
-     - Power
+## Features
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Power
+- Modulo
 
-     ## Usage
-     To use the calculator, import the `calculator` module and call the desired functions:
+## Usage
+To use the calculator, import the `calculator` module and call the desired functions:
 
-     ```python
-     from calculator import add, subtract, multiply, divide, power
+```python
+from calculator import add, subtract, multiply, divide, power
 
-     result = add(2, 3)  # Returns 5
+result = add(2, 3)  # Returns 5

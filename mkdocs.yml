@@ -1,0 +1,5 @@
+site_name: Калькулятор
+nav:
+  - Главная: index.md
+  - Использование: usage.md
+theme: readthedocs

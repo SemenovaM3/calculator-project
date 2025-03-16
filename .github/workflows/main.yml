@@ -39,3 +39,5 @@ jobs:
           git add README.md
           git commit -m "Обновление документации"
           git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }}  # Используйте PAT или GITHUB_TOKEN

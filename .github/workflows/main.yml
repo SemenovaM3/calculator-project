@@ -30,3 +30,12 @@ jobs:
       - name: Run tests
         run: |
           python -m pytest tests/
+
+      - name: Update README.md
+        run: |
+          echo "Документация обновлена" >> README.md
+          git config user.name "SemenovaM3"
+          git config user.email "mashasemen12345@gmail.com"
+          git add README.md
+          git commit -m "Обновление документации"
+          git push origin main
